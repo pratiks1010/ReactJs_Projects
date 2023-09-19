@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hover{
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.container .button .button
+{
+     margin-left: 10px;
+     color: rgb(255, 255, 255);
+     font-weight: 300;
+     cursor: pointer;
+     background-color: none;
+}
+
+.hover:hover{
+    box-shadow: 0 0 14px 4px rgba(2, 2, 2, 0.1);
+    transition: .2s;
+}
+
+.card-img{
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 16rem;
+}
+
+.food-title h4{
+    font-size: 18px;
+    color: rgba(17,17,17,0.849);
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.food-title span{
+    background-color: rgb(36,150,63);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 1px;
+    width: 45px;
+}
+
+.food-details h5{
+    font-size: 15px;
+letter-spacing: .4px;
+font-weight: 400;
+color:rgba(17,17,17,0.849) ;
+}
+
+.food-details span{
+    font-size: 15px;
+    letter-spacing: .4px;
+    color:rgba(17,17,17,0.849) ;
+}
+
+.more-info{
+    border-bottom: 1px solid rgba(17,17,17,0.449);
+}
+
+.end-data .limg{
+    width: 18px;
+}
+
+.end-data p{
+    font-size: 13px;
+    margin-top: 18px;
+    letter-spacing: .2px;
+    margin-left: 13px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    display: -webkit-box;
+}
+
+.end-data .delimg{
+    width: 40px;
+}
+
+@media (max-width:600px){
+    .con{
+        flex-direction: column;
+        align-items: center;
+    }
+    .end-data  p{
+        font-size: 12px;
+    }
+    .zomato{
+        margin-top: 12px;
+        position: none;
+    }
+}
